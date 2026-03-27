@@ -7,22 +7,31 @@
     <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a página para telas de dispositivos móveis -->
     <title>Catálogo</title> <!-- Título da aba no navegador -->
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body> <!-- Área onde fica todo o conteúdo visível do site -->
-    <div class = "cabecalho">
-        <!--Atributos da classe cabecalho-->
+    <div class = "card">
+        <!--Atributos da classe card-->
         <h2>Vai Corinthians!</h2>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgliHf0_QZBb7FTtGTaElLt-o7HQl7esXhgQ&s" alt="corinthians" class="logo">
-    </div>   
-    <div>  
-        <button>Ação</button>
-        <button>Aventura</button>
-        <button>Drama</button>
-        <button>Romance</button>
-        <button>Terror</button>
-    </div>    
+        <img scr="https://cdn.meutimao.com.br/img/ico/icon-100x100.png" alt="corinthians">
+        <p>O corinthians é o melhor time</p>
+        <a href="https://youtube.com">Youtube</a>
+    </div>
+    <div class="container">
+        <h2>Cadastrar</h2>
+
+        <form id="meuFormulario">
+            <p>Título:</p>
+            <input type="text" id="Titulo" placeholder="Título">
+            <p>URL da Imagem:</p>
+            <input type="url" id="imagem" placeholder="URL da imagem">
+            <p>Sinopse:</p>
+            <textarea id="paragrafo" placeholder="Sinopse"></textarea>
+            <p>Avaliação:</p>
+            <input type="text" id="Avaliacao" placeholder="Avaliação">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
 </body>
 
 </html> <!-- Fecha o documento HTML -->
