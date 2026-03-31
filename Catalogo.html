@@ -7,18 +7,19 @@
     <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a página para telas de dispositivos móveis -->
     <title>Catálogo</title> <!-- Título da aba no navegador -->
+    <script src='script.js'></script>
 </head>
 
 <body> <!-- Área onde fica todo o conteúdo visível do site -->
     <div class = "card">
         <!--Atributos da classe card-->
         <h2>Vai Corinthians!</h2>
-        <img scr="https://cdn.meutimao.com.br/img/ico/icon-100x100.png" alt="corinthians">
+        <img src="https://cdn.meutimao.com.br/img/ico/icon-100x100.png" alt="corinthians">
         <p>O corinthians é o melhor time</p>
         <a href="https://youtube.com">Youtube</a>
     </div>
     <div class="container">
-        <h2>Cadastrar</h2>
+        <h2 id = "titulo">Cadastrar</h2>
 
         <form id="meuFormulario">
             <p>Título:</p>
@@ -29,7 +30,7 @@
             <textarea id="paragrafo" placeholder="Sinopse"></textarea>
             <p>Avaliação:</p>
             <input type="text" id="Avaliacao" placeholder="Avaliação">
-            <button type="submit">Enviar</button>
+            <button onClick = "alterarFundo()">Enviar</button>
         </form>
     </div>
 </body>
