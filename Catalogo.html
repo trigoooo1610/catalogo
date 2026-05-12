@@ -1,38 +1,35 @@
-<!--Atributos: logo, botao_config, botao_gen, barra_pesquisa, botao_filtros, foto, avaliacao, classificacao, titulo, sinopse, duracao, foto_ator, nome_ator, papel_ator, foto_logoPlataformas -->
-<!-- w3schools -->
 <!DOCTYPE html> <!-- Define que o documento usa HTML5 -->
 <html lang="pt-br"> <!-- Elemento raiz do HTML e define o idioma -->
 
 <head> <!-- Contém configurações e metadados da página -->
     <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a página para telas de dispositivos móveis -->
-    <title>Catálogo</title> <!-- Título da aba no navegador -->
-    <script src='script.js'></script>
+    <title>Portal 1910</title> <!-- Título da aba no navegador -->  
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body> <!-- Área onde fica todo o conteúdo visível do site -->
     <div class = "card">
         <!--Atributos da classe card-->
-        <h2>Vai Corinthians!</h2>
-        <img src="https://cdn.meutimao.com.br/img/ico/icon-100x100.png" alt="corinthians">
-        <p>O corinthians é o melhor time</p>
-        <a href="https://youtube.com">Youtube</a>
+        <h2>Portal 1910</h2>
+        <img src="https://img.freepik.com/fotos-gratis/icone-de-claquete-preto-e-branco_53876-139826.jpg?semt=ais_hybrid&w=740&q=80" alt="logo">
+        <p>Seja bem-vindo(a) ao Portal 1910!</p></a><br><br>
     </div>
     <div class="container">
-        <h2 id = "titulo">Cadastrar</h2>
+        <h2 id = "tituloPagina">Cadastrar</h2>
 
         <form id="meuFormulario">
             <p>Título:</p>
-            <input type="text" id="Titulo" placeholder="Título">
-            <p>URL da Imagem:</p>
-            <input type="url" id="imagem" placeholder="URL da imagem">
+            <input type="text" id="titulo" placeholder="Título">
+            <p>URL do Cartaz:</p>
+            <input type="url" id="imagem" placeholder="URL do Cartaz">
             <p>Sinopse:</p>
             <textarea id="paragrafo" placeholder="Sinopse"></textarea>
             <p>Avaliação:</p>
             <input type="text" id="Avaliacao" placeholder="Avaliação">
-            <button onClick = "alterarFundo()">Enviar</button>
+            <button>Enviar</button>
         </form>
     </div>
+    <div id="colecao"></div>
+    <script src='script.js'></script>
 </body>
-
-</html> <!-- Fecha o documento HTML -->
